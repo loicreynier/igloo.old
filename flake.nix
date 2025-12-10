@@ -170,14 +170,12 @@
       inputs = {
         nixpkgs.follows = "nixpkgs";
         flake-parts.follows = "flake-parts";
-        nuschtosSearch.follows = "";
       };
     };
     awesome-neovim-plugins = {
       url = "github:m15a/flake-awesome-neovim-plugins";
       inputs = {
         nixpkgs.follows = "nixpkgs";
-        flake-utils.follows = "flake-utils";
       };
     };
   };
